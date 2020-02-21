@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: entity-decorator
+Version: 1.0.0
+Summary: Decorator for serialize objects in json files
+Home-page: https://github.com/practice-microservices-gcp/lib-entity
+Author: Adrian Ferreres
+Author-email: ardiadrianadri@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
