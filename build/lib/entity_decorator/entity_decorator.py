@@ -3,7 +3,7 @@ import re
 def serializable(Cls):
     class Entity(Cls):
         def _element_to_json(self, obj):
-            classPattern = re.compile("^<class 'entities.*")
+            classPattern = re.compile("^<class 'entity_decorator.*")
             listPatter = re.compile("^<class 'list.*")
             jsonStr = ""
             typeObj = str(type(obj))
@@ -42,7 +42,7 @@ def serializable(Cls):
         def _json_list(self, elements):
             jsonStr = ""
             leng = len(elements)
-            classPattern = re.compile("^<class 'entities.*")
+            classPattern = re.compile("^<class 'entity_decorator.*")
 
             for index in range(leng):
                 typeItem = str(type(elements[index]))

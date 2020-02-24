@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
      name='entity_decorator',  
-     version='1.0.0',
+     version='1.0.1',
      scripts=[] ,
      author="Adrian Ferreres",
      author_email="ardiadrianadri@gmail.com",
